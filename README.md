@@ -1,6 +1,6 @@
 # Weather App
 Deployment in netlify.com:
-https://app.netlify.com/sites/incomparable-pudding-9f20fb/overview
+https://incomparable-pudding-9f20fb.netlify.app/
 
 Simple weather app HTML, CSS, and JavaScript
 Using external API： https://openweathermap.org/current#data
