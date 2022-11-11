@@ -3,7 +3,7 @@ let weather = {
  
   fetchWeather: function (city) {
     fetch(
-      "http://api.openweathermap.org/geo/1.0/direct?q="+city+"&limit=5&appid=5489a15b88556cf3e772ac20835e46a3"
+      "https://api.openweathermap.org/geo/1.0/direct?q="+city+"&limit=5&appid=5489a15b88556cf3e772ac20835e46a3"
     ).then((response) => response.json())
      // .then((data1)=>console.log(data1[0].lat,data1[0].lon,data1[0]))
      .then((data1)=>{
